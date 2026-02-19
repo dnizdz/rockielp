@@ -1,4 +1,4 @@
-﻿(function () {
+(function () {
   const qs = (sel) => document.querySelector(sel);
   const el = (tag, className) => {
     const node = document.createElement(tag);

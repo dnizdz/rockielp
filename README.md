@@ -1,4 +1,4 @@
-﻿# WebSell Business Site
+# RockieSell Business Site
 
 ## Implementation Plan
 1. Define content model in `config.js` to centralize all dynamic content.
@@ -59,7 +59,7 @@ Open `index.html` directly in a browser. No build step required.
 
 ### Option B: Self-Hosted Static Server
 - Use Nginx to serve the `/root` directory.
-- Enable HTTPS via Let’s Encrypt.
+- Enable HTTPS via Let�s Encrypt.
 
 ## Email Setup Architecture (Self-Hosted)
 ### Overview
@@ -67,7 +67,7 @@ A standard, production-safe stack:
 - MTA: Postfix (SMTP)
 - IMAP/POP: Dovecot
 - Anti-spam: Rspamd
-- TLS: Let’s Encrypt + certbot
+- TLS: Let�s Encrypt + certbot
 - DNS: SPF, DKIM, DMARC, and PTR records
 
 ### High-Level Architecture
@@ -78,12 +78,12 @@ A standard, production-safe stack:
 5. **Nginx** (optional) for webmail (Roundcube) behind HTTPS.
 
 ### Required DNS Records
-- `A` record for `mail.yourdomain.com` → server IP
-- `MX` record for `yourdomain.com` → `mail.yourdomain.com`
+- `A` record for `mail.yourdomain.com` ? server IP
+- `MX` record for `yourdomain.com` ? `mail.yourdomain.com`
 - `TXT` SPF: `v=spf1 mx -all`
 - `TXT` DKIM: from Rspamd-generated key
 - `TXT` DMARC: `v=DMARC1; p=quarantine; rua=mailto:dmarc@yourdomain.com`
-- `PTR` (reverse DNS): IP → `mail.yourdomain.com`
+- `PTR` (reverse DNS): IP ? `mail.yourdomain.com`
 
 ### Operational Notes
 - Use separate mailboxes for `admin@`, `support@`, `sales@`.

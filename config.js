@@ -1,17 +1,17 @@
-﻿const CONFIG = {
+const CONFIG = {
   site: {
-    name: "WebSell",
+    name: "RockieSell",
     tagline: "Your bridge to global marketplaces",
     description: "We help product brands expand into North America and Europe with a proven ecommerce engine.",
-    domain: "websell.example"
+    domain: "RockieSell.example"
   },
   contact: {
-    email: "hello@websell.example",
+    email: "hello@RockieSell.example",
     phone: "+1 (415) 555-0124",
     address: "1200 Market Street, Suite 900, San Francisco, CA"
   },
   social: {
-    instagram: "https://instagram.com/websell",
+    instagram: "https://instagram.com/RockieSell",
     whatsapp: "https://wa.me/14155550124"
   },
   services: [
@@ -32,17 +32,17 @@
     {
       name: "Ariana Patel",
       role: "Director of Partnerships",
-      email: "ariana@websell.example"
+      email: "ariana@RockieSell.example"
     },
     {
       name: "Luis Moreno",
       role: "Marketplace Operations Lead",
-      email: "luis@websell.example"
+      email: "luis@RockieSell.example"
     },
     {
       name: "Sofia Chen",
       role: "Growth Strategist",
-      email: "sofia@websell.example"
+      email: "sofia@RockieSell.example"
     }
   ],
   hero: {
@@ -56,7 +56,7 @@
   ],
   about: {
     title: "Who We Are",
-    body: "WebSell partners with product owners to handle market entry, listings, and operations in the US and Europe. We manage the local details so you can focus on supply and brand building."
+    body: "RockieSell partners with product owners to handle market entry, listings, and operations in the US and Europe. We manage the local details so you can focus on supply and brand building."
   },
   strengths: [
     "US & EU compliance support",
@@ -72,10 +72,10 @@
     title: "Ready to grow?",
     body: "Tell us about your product, catalog size, and target markets.",
     cta: "Get Started",
-    ctaLink: "mailto:hello@websell.example"
+    ctaLink: "mailto:hello@RockieSell.example"
   },
   footer: {
     tagline: "Global ecommerce partnerships.",
-    copyright: "© 2026 WebSell. All rights reserved."
+    copyright: "� 2026 RockieSell. All rights reserved."
   }
 };
