@@ -1,0 +1,146 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WebSell</title>
+    <meta name="description" content="Business partnership website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Marcellus&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Home">
+          <span class="brand-mark"></span>
+          <span id="siteName">WebSell</span>
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#team">Team</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav">
+          Menu
+        </button>
+      </div>
+      <div class="mobile-nav" id="mobileNav">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow" id="siteTagline">Your bridge to global marketplaces</p>
+            <h1 id="heroTitle">Sell globally with confidence</h1>
+            <p class="hero-desc" id="heroDescription">
+              We help brands expand into North America and Europe with a proven ecommerce engine.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" id="primaryCta" href="#contact">Start a Partnership</a>
+              <a class="btn ghost" id="secondaryCta" href="#about">Learn More</a>
+            </div>
+          </div>
+          <div class="hero-card" id="statsGrid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Services</h2>
+            <p id="servicesIntro">Everything you need to operate in international markets.</p>
+          </div>
+          <div class="card-grid" id="servicesGrid"></div>
+        </div>
+      </section>
+
+      <section class="section alt" id="about">
+        <div class="container split">
+          <div>
+            <h2 id="aboutTitle">Who We Are</h2>
+            <p id="aboutBody">
+              WebSell partners with product owners to handle market entry, listings, and operations
+              in the US and Europe.
+            </p>
+            <div class="pill-list" id="strengthsList"></div>
+          </div>
+          <div class="presence" id="presenceGrid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="team">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Team</h2>
+            <p id="teamIntro">Meet the experts guiding your global expansion.</p>
+          </div>
+          <div class="card-grid" id="teamGrid"></div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container contact-inner">
+          <div>
+            <h2 id="contactTitle">Ready to grow?</h2>
+            <p id="contactBody">Tell us about your product and target markets.</p>
+            <div class="contact-meta">
+              <div>
+                <span>Email</span>
+                <a id="contactEmail" href="mailto:hello@websell.com">hello@websell.com</a>
+              </div>
+              <div>
+                <span>Phone</span>
+                <a id="contactPhone" href="tel:+10000000000">+1 (000) 000-0000</a>
+              </div>
+              <div>
+                <span>Address</span>
+                <p id="contactAddress">Main office address</p>
+              </div>
+            </div>
+            <div class="socials" id="socialLinks"></div>
+          </div>
+          <div class="contact-card">
+            <h3>Start your partnership</h3>
+            <p>Share your catalog and capacity, and we will map a launch plan.</p>
+            <a class="btn primary" id="contactCta" href="#">Get Started</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong id="footerName">WebSell</strong>
+          <p id="footerTagline">Global ecommerce partnerships.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#team">Team</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div>
+          <p id="footerContact">hello@websell.com</p>
+          <p id="footerPhone">+1 (000) 000-0000</p>
+        </div>
+      </div>
+      <div class="footer-bottom" id="footerCopyright"></div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
